@@ -1,0 +1,175 @@
+.wrapper {
+  width: 600px;
+  height: 100vh;
+  background-color: black;
+  margin: auto;
+  padding: 12px;
+}
+
+.imgPhoto {
+  background-image: url('../pages/assets/avatar.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+}
+
+
+.contacs,
+.job,
+.skills,
+.portfolio {
+  display: flex;
+  width: 508px;
+  background-color: rgb(47, 46, 46);
+  border-radius: 24px;
+  background: var(--balck, radial-gradient(205.3% 154.51% at 91.33% -10.25%, #212225 0%, #1F2025 100%));
+  padding: 24px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+
+  line-height: 190%;
+  letter-spacing: 1.2px;
+}
+
+
+.info h1 {
+  color: var(--White, #F5F8FF);
+  font: 900 24px 'Poppins';
+}
+
+.info p {
+  color: var(--White, #F5F8FF);
+  font: 600 12px 'Poppins';
+}
+
+.title {
+  color: var(--White, #F5F8FF);
+  align-items: flex-start;
+  font: 900 16px 'Poppins';
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  padding-left: 45px;
+}
+
+.job h1 {
+  color: var(--White, #F5F8FF);
+  font: 500 16px 'Poppins';
+
+  line-height: 190%;
+  letter-spacing: 1.2px;
+
+}
+
+.job h2 {
+  color: var(--White, #F5F8FF);
+  font: 500 10px 'Poppins';
+
+  line-height: 190%;
+  letter-spacing: 1.2px;
+
+}
+
+.job p {
+  color: var(--White, #F5F8FF);
+  font: 400 12px 'Poppins';
+  line-height: 190%;
+  letter-spacing: 1.2px;
+
+}
+
+.skills p {
+  color: var(--White, #F5F8FF);
+
+  font: 400 12px 'Poppins';
+  line-height: 190%;
+  letter-spacing: 1.2px;
+}
+
+.educationLanguage {
+  display: flex;
+  justify-content: space-around;
+  
+  width: 500px;
+  margin: auto;
+  gap: 30px;
+  margin-top: 16px;
+}
+
+.educationBlock,
+.languageBlock {
+  display: flex;
+  width: 300px;
+
+  background-color: rgb(47, 46, 46);
+  border-radius: 24px;
+  background: var(--balck, radial-gradient(205.3% 154.51% at 91.33% -10.25%, #212225 0%, #1F2025 100%));
+  padding: 24px;
+  margin-bottom: 16px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.education,
+.language {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.education p,
+.language p {
+  color: var(--White, #F5F8FF);
+  font: 400 12px 'Poppins';
+}
+
+.imgEducation {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 30px;
+  background-image: url('../pages/assets/Icon.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+}
+
+.imgLanguage {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url('../pages/assets/Icon2.png');
+  padding-right: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+}
+
+.qr {
+  background-image: url('../pages/assets/portfolio\ qr.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 74px;
+  height: 74px;
+}
+
+.infoPortfolio h1 {
+  color: var(--White, #F5F8FF);
+  font: 600 14px 'Poppins';
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.infoPortfolio a {
+  color: var(--gray, #C2C2C2);
+  font: 300 12px 'Poppins';
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  text-align: center;
+}
